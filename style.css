@@ -1,11 +1,11 @@
-@media screen and (max-width: 481px){
+
 @charset "UTF-8";
 .kid .pants:before, .kid .body:before, .kid .body:after, .dad .pants:after, .dad .pants:before, .dad .body .eye:before, .dad .body .eye:after, .dad .body:before, .dad .body:after, #message:after, .container:before, .ear {
   content: "";
   display: inline-block;
   position: absolute;
 }
-
+@media screen and (max-width: 481px){
 @-webkit-keyframes arm-swing {
   0%, 10% {
     transform: rotate(80deg);
