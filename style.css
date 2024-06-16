@@ -4,7 +4,7 @@
   display: inline-block;
   position: absolute;
 }
-
+@media screen and (max-width: 481px){
 @-webkit-keyframes arm-swing {
   0%, 10% {
     transform: rotate(80deg);
@@ -496,4 +496,5 @@ body {
   left: 35px;
   -webkit-animation: arm-swing-opp 1.25s cubic-bezier(1, 0.35, 0, 2) infinite;
           animation: arm-swing-opp 1.25s cubic-bezier(1, 0.35, 0, 2) infinite;
+}
 }
