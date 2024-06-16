@@ -4,7 +4,7 @@
   display: inline-block;
   position: absolute;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 6000px){
 @-webkit-keyframes arm-swing {
   0%, 10% {
     transform: rotate(80deg);
