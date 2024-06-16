@@ -5,7 +5,7 @@
   display: inline-block;
   position: absolute;
 }
-@media screen and (max-width: 481px){
+@media screen and (max-width: 4810px){
 @-webkit-keyframes arm-swing {
   0%, 10% {
     transform: rotate(80deg);
@@ -281,11 +281,11 @@ body {
   width: 28%;
   margin: 30vh auto;
   height: 100%;
-  padding-left: 10px;
 }
 
 #message {
   margin-left: -465px;
+  padding-left: 10px;
   font-family: "Bungee Shade", cursive;
   font-size: 100px;
   color: #fafafa;
